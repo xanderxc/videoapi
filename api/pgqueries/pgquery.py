@@ -36,4 +36,4 @@ class PostgresQuery:
             rows = []
             for row in rs:
                 rows.append(dict(row))
-            return rows 
+            return rows
