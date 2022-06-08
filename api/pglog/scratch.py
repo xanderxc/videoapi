@@ -3,7 +3,7 @@ from sqlalchemy.sql import text
 
 
 
-db_url = 'postgresql://postgres:linjie1018@192.168.1.187:5432/postgres'
+db_url = 'postgresql://postgres:******@*********/postgres'
 engine = create_engine(db_url)
 
 with engine.connect() as con:
